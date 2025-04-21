@@ -9,9 +9,9 @@ function App() {
   //const [id, setId] = useState(0);
 
   return (
-    <div>
+    <div >
       <Header />
-      <main>
+      <main >
         <Outlet />
       </main>
     </div>

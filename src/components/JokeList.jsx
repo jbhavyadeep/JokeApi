@@ -42,7 +42,7 @@ function JokeList() {
                 <select
                     value={query}
                     onChange={(e) => selectcat(e.target.value)}
-                    className="rounded-lg font-medium px-1 py-1 font-sans cursor-pointer outline-none bg-slate-100"
+                    className="rounded-lg font-medium px-1 py-1 font-sans cursor-pointer outline-none bg-slate-200"
 
                 >
                     {

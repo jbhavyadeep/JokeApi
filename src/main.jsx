@@ -10,15 +10,15 @@ import { createBrowserRouter } from 'react-router-dom'
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <App/>,
+        element: <App />,
         children: [
             {
                 path: '/',
-                element: <RandomJoke/>
+                element: <RandomJoke />
             },
             {
                 path: '/joke-list',
-                element: <JokeList/>
+                element: <JokeList />
             }
         ]
     }
@@ -26,6 +26,6 @@ const router = createBrowserRouter([
 
 
 createRoot(document.getElementById('root')).render(
-    
-    <RouterProvider router={router}/>
+
+    <RouterProvider router={router} />
 )
