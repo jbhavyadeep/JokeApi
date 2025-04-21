@@ -7,12 +7,12 @@ import { Outlet } from 'react-router-dom'
 
 function App() {
   //const [id, setId] = useState(0);
- 
+
   return (
     <div>
-      <Header/>
+      <Header />
       <main>
-        <Outlet/>
+        <Outlet />
       </main>
     </div>
   )
